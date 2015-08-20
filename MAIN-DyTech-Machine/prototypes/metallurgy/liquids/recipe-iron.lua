@@ -3,6 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "metallurgy-iron-smelt",
+    icon = "__MAIN-DyTech-Machine__/graphics/metallurgy/fluid/molten-iron.png",
 	enabled = false,
 	category = "blast-furnace",
     energy_required = 5,
@@ -37,6 +38,7 @@ data:extend(
   {
     type = "recipe",
     name = "iron-plate-01",
+    icon = "__base__/graphics/icons/iron-plate.png",
     category = "smelting",
     energy_required = 2.5,
     ingredients = {{"clean-iron-ore", 1}},
