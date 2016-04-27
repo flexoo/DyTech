@@ -61,6 +61,31 @@ function Timer(event)
 	end
 end
 
+function LoggerCount(NAME, AMOUNT)
+	local NAME = NAME
+	if not global.LoggerCount then global.LoggerCount = {} end
+	if not global.LoggerCount[NAME] then global.LoggerCount[NAME] = 0 end
+	global.LoggerCount[NAME] = global.LoggerCount[NAME] + AMOUNT
+end
+
+function Pollution_Add_Pos(event)
+	if not global.PollutionCheck then global.PollutionCheck = {} end
+	if not global.PollutionIndex then global.PollutionIndex = 1 end
+	local PosX = event.area.left_top.x+15
+	local PosY = event.area.left_top.y+15
+	global.PollutionCheck[global.PollutionIndex] = {}
+	global.PollutionCheck[global.PollutionIndex].PosX = PosX
+	global.PollutionCheck[global.PollutionIndex].PosY = PosY
+	global.PollutionIndex = global.PollutionIndex + 1
+end
+
+function Pollution_Check()
+	global.Pollution = 0
+	for Index, Name in pairs(global.PollutionCheck) do
+		global.Pollution = global.Pollution + game.get_surface(1).get_pollution({global.PollutionCheck[Index].PosX,global.PollutionCheck[Index].PosY})
+	end
+end
+
 function SectorScannedLogger()
 	if not global.Logger then global.Logger = {} end
 	if not global.Logger.SectorScanned then 

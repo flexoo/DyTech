@@ -51,7 +51,6 @@ Config.MiningDrills = true
 Config.SteelFurnaces = true
 Config.ElectricFurnaces = true
 Config.Radars = true
-Config.Walls = false
 Config.Beacons = true
 Config.Lamps = true
 Config.Oil_Upgrades = true
@@ -67,20 +66,3 @@ Config.HighSpeedTrain = true
 --[[ Tools ]]--
 -- These are the tools of the game. There are currently 7!
 Config.Tools = true
-
---[[ Metallurgy ]]--
--- Here is everything related to metallurgy!
-Config.Metallurgy = true --MASTER SWITCH!
-Config.MoltenMetals = true
-Config.Liquid_Crafting_DyTech_Intermediates = true
-Config.Liquid_Crafting_Science_Packs = true
-Config.Liquid_Crafting_Belts = true 
-Config.Liquid_Crafting_Machines = true
-Config.Liquid_Crafting_Furnaces = true
-Config.Liquid_Crafting_Miners = true
-Config.Liquid_Crafting_Tools = true 
-Config.Liquid_Crafting_Circuits = true
-Config.Liquid_Crafting_Ammo = true
-Config.Liquid_Crafting_Wires = true
-Config.Liquid_Crafting_Gears = true
-Config.Liquid_Crafting_Walls = true

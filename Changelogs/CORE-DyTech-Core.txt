@@ -1,11 +1,26 @@
 [size=200]DyTech-Core[/size]
 
-[spoiler=v1.3.0][i][size=150][b]v1.3.0:[/b][/size][/i]
+[spoiler=v1.3.1][i][size=150][b]v1.3.1:[/b][/size][/i]
 Released: ?? 2015
+[list]
+[*] Features:
+[list][*] 
+[/list]
+[*] Changes:
+[list] [*] Changed Stone resource richness.
+[/list]
+[*] Bugfixes :
+[list] [*] Fixed Error with Languages files
+[/list]
+[/list][/spoiler]
+
+[spoiler=v1.3.0][i][size=150][b]v1.3.0:[/b][/size][/i]
+Released: August 30th 2015
 [list]
 [*] Features:
 [list][*] Added in Floors! (Sand, Sandbag)
 [*] Added in more cheats. (amo more larger magazine size and tools more durability.)
+[*] Added in stats in DyTech-Core GUI.
 [/list]
 [*] Changes:
 [list] [*] Added in a Tech Fix. This fixes the screen getting to big. Also adds a new order in the tech screen
@@ -15,7 +30,8 @@ Released: ?? 2015
 [*] Much improved the wind changing direction. Doesnt happen every 10 seconds anymore. It can now happen between 10 seconds and 5 minutes. So be careful with your firestorm capsules.
 [/list]
 [*] Bugfixes :
-[list] 
+[list] [*] Fixed Error when loading or saving.
+[*] DyTech Button no longer shows up when any GUI from DyTech is open.
 [/list]
 [/list][/spoiler]
 
